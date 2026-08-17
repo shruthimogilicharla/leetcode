@@ -17,7 +17,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2)
     while (l1 != NULL || l2 != NULL || carry != 0)
     {
         int sum = carry;
-
         if (l1 != NULL) {
             sum += l1->val;
             l1 = l1->next;
