@@ -10,6 +10,7 @@ int reverse(int x)
         int rem=x%10;
         rev=rev*10+rem;
         x/=10;
+        
     }
     if(rev>2147483647||rev<-2147483648)
     return 0;
