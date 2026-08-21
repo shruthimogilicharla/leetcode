@@ -11,5 +11,4 @@ int reverse(int x)
     if(rev>2147483647||rev<-2147483648)
     return 0;
     return (int)rev;
-    
 }
