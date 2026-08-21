@@ -1,6 +1,5 @@
 #include<stdio.h>
 int reverse(int x)
-
 {
     long rev=0;
     while(x!=0)
