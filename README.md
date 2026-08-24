@@ -4,7 +4,7 @@
 
 ## 📊 Progress
 
-**0 / 117 Completed**
+**2 / 117 Completed**
 
 ---
 
