@@ -1,7 +1,6 @@
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-
 int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
     int *ans = (int*)malloc(numsSize * sizeof(int));
     int index = 0;
