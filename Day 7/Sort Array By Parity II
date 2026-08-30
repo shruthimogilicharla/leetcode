@@ -1,6 +1,5 @@
 int* sortArrayByParityII(int* nums, int numsSize, int* returnSize) {
     int even = 0, odd = 1;
-
     while (even < numsSize && odd < numsSize) {
         if (nums[even] % 2 == 0) {
             even += 2;
