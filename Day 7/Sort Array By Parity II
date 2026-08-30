@@ -18,7 +18,6 @@ int* sortArrayByParityII(int* nums, int numsSize, int* returnSize) {
             odd += 2;
         }
     }
-
     *returnSize = numsSize;
     return nums;
 }
