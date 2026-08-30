@@ -4,7 +4,6 @@ int* sortArrayByParityII(int* nums, int numsSize, int* returnSize) {
         if (nums[even] % 2 == 0) {
             even += 2;
         }
-
         else if (nums[odd] % 2 == 1) {
             odd += 2;
         }
