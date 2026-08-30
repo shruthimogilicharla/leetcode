@@ -9,7 +9,8 @@ int* sortArrayByParityII(int* nums, int numsSize, int* returnSize) {
         else if (nums[odd] % 2 == 1) {
             odd += 2;
         }
-        else {
+        else
+{
             int temp = nums[even];
             nums[even] = nums[odd];
             nums[odd] = temp;
