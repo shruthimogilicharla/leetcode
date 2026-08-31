@@ -1,7 +1,6 @@
 int* sortedSquares(int* nums, int numsSize, int* returnSize) {
     int i, j, temp;
     // Square every element
-    
     for (i = 0; i < numsSize; i++) {
         nums[i] = nums[i] * nums[i];
     }
