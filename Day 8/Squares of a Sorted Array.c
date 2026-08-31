@@ -5,7 +5,7 @@ int* sortedSquares(int* nums, int numsSize, int* returnSize) {
     for (i = 0; i < numsSize; i++) {
         nums[i] = nums[i] * nums[i];
     }
-    
+
     // Sort the squared values
     for (i = 0; i < numsSize - 1; i++) {
         for (j = i + 1; j < numsSize; j++) {
