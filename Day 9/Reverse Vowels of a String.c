@@ -32,6 +32,7 @@ char* reverseVowels(char* s)
             right--;
         }
     }
+    
 
     return s;
 }
