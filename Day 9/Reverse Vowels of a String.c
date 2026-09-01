@@ -15,6 +15,7 @@ char* reverseVowels(char* s)
     while (left < right)
   
     {
+        
         while (left < right && !isVowel(s[left]))
             left++;
         while (left < right && !isVowel(s[right]))
