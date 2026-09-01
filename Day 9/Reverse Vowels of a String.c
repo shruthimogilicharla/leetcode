@@ -12,6 +12,7 @@ char* reverseVowels(char* s)
     int left = 0;
     int right = strlen(s) - 1;
     while (left < right)
+        
     {
         while (left < right && !isVowel(s[left]))
             left++;
