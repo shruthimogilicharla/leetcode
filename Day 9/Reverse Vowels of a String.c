@@ -9,7 +9,6 @@ int isVowel(char c)
            c == 'o' || c == 'u';
 }
 
-
 char* reverseVowels(char* s)
 {
     int left = 0;
