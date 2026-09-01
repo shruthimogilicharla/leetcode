@@ -17,12 +17,12 @@ char* reverseVowels(char* s)
             left++;
         while (left < right && !isVowel(s[right]))
             right--;
-
         if (left < right)
         {
             char temp = s[left];
             s[left] = s[right];
             s[right] = temp;
+            
             left++;
             right--;
         }
