@@ -27,6 +27,7 @@ bool validPalindrome(char *s)
 
     while (left < right)
     {
+        
         if (s[left] != s[right])
         {
             return isPalindrome(s, left + 1, right) ||
