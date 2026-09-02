@@ -12,8 +12,7 @@ bool isPalindrome(char *s, int left, int right)
         right--;
     }
 
-    return true;
-    
+    return true;  
 }
 
 bool validPalindrome(char *s)
