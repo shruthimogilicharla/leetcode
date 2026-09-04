@@ -1,6 +1,5 @@
 #include <string.h>
 #include <ctype.h>
-
 int isVowel(char c)
 {
     
