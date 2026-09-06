@@ -1,7 +1,8 @@
 #include <ctype.h>
 #include <string.h>
 
-char* reverseOnlyLetters(char* s) {
+char* reverseOnlyLetters(char* s) 
+{
     int i = 0, j = strlen(s) - 1;
 
     while (i < j) {
