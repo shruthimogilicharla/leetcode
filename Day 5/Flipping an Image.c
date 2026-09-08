@@ -26,6 +26,7 @@ int* returnSize, int** returnColumnSizes)
             else
             {
                 image[i][j] = 0;
+                
             }
         }
     }
