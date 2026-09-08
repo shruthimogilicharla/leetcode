@@ -11,7 +11,6 @@ int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
             ans[index++] = nums[i];
         }
     }
-
     // Put all odd numbers after even numbers
     for (int i = 0; i < numsSize; i++) {
         if (nums[i] % 2 != 0) {
