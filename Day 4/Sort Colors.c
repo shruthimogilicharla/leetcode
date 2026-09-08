@@ -14,6 +14,7 @@ void sortColors(int* nums, int n) {
         }
         else {
             j++;
+            
         }
     }
 }
