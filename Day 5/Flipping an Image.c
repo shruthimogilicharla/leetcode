@@ -14,7 +14,6 @@ int* returnSize, int** returnColumnSizes)
             image[i][imageColSize[i] - 1 - j] = temp;
         }
     }
-
     // Invert 0 and 1
     for (i = 0; i < imageSize; i++)
     {
