@@ -4,7 +4,6 @@
 int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
     int *ans = (int*)malloc(numsSize * sizeof(int));
     int index = 0;
-
     // Put all even numbers first
     for (int i = 0; i < numsSize; i++) {
         if (nums[i] % 2 == 0) {
