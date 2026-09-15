@@ -11,7 +11,8 @@ void sortColors(int* nums, int n) {
             nums[j] = nums[k];
             nums[k--] = temp;
         }
-        else {
+        else
+        {
             j++; 
         }
     }
