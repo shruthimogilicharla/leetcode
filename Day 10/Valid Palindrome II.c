@@ -9,7 +9,6 @@ bool isPalindrome(char *s, int left, int right)
         left++;
         right--;
     }
-
     return true;  
 }
 
