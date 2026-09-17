@@ -1,4 +1,5 @@
-char* reversePrefix(char* word, char ch) {
+char* reversePrefix(char* word, char ch) 
+{
     int i, j;
     for(i = 0; word[i] != '\0'; i++) {
         if(word[i] == ch) {
