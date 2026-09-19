@@ -1,6 +1,7 @@
 #include <ctype.h>
 #include <string.h>
 
+
 char* reverseOnlyLetters(char* s) 
 {
     int i = 0, j = strlen(s) - 1;
