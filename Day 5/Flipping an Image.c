@@ -7,7 +7,6 @@ int* returnSize, int** returnColumnSizes)
         for (j = 0; j < imageColSize[i] / 2; j++)
         {
             temp = image[i][j];
-
             image[i][j] = image[i][imageColSize[i] - 1 - j];
 
             image[i][imageColSize[i] - 1 - j] = temp;
