@@ -18,6 +18,5 @@ char* reverseOnlyLetters(char* s)
             j--;
         }
     }
-
     return s;
 }
