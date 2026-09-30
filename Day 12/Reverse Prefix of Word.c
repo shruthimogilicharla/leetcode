@@ -11,5 +11,6 @@ char* reversePrefix(char* word, char ch)
             break;
         }
     }
+    
     return word;
 }
