@@ -8,7 +8,6 @@ int* returnSize, int** returnColumnSizes)
         {
             temp = image[i][j];
             image[i][j] = image[i][imageColSize[i] - 1 - j];
-
             image[i][imageColSize[i] - 1 - j] = temp;
         }
     }
