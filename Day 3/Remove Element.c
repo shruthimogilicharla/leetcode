@@ -6,6 +6,7 @@ int removeElement(int* nums, int numsSize, int val)
             nums[k] = nums[i];
             k++;
         }
+        
     }
     return k;   
 }
